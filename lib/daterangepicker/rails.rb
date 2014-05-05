@@ -2,6 +2,7 @@ require "daterangepicker/rails/version"
 
 module Daterangepicker
   module Rails
-    # Your code goes here...
+    class Engine < ::Rails::Engine
+    end
   end
 end
